@@ -7,6 +7,9 @@
     <title>Document</title>
   </head>
   <body>
+    <input type="text" placeholder="Enter a subject" id="result" />
+    <button onClick="topperOfClass()">Click Here</button>
+
     <script>
       let classObj = {
         name: "class A",
@@ -61,20 +64,82 @@
 
       // console.log(classObj);
 
-      let student = classObj.students;
-      // console.log(student);
-      for(let i=0;i<student.length;i++) {
-        let markArr = student[i].marks;
-        // console.log(markArr);
-        for(let j=0;j<markArr.length;j++) {
-          // console.log(markArr[i].length);
-          delete markArr[j].subject
-        }
-        
-        
-      }
+      // let student = classObj.students;
+      // // console.log(student);
+      // for(let i=0;i<student.length;i++) {
+      //   let markArr = student[i].marks;
+      //   // console.log(markArr);
+      //   for(let j=0;j<markArr.length;j++) {
+      //     // console.log(markArr[i].length);
+      //     delete markArr[j].subject
+      //   }
 
-      console.log(classObj);
+      // }
+
+      // console.log(classObj);
+
+      // Find the topper of a class given a subject
+      // function topperOfClass() {
+
+      //   let topper = classObj.students;
+      //   let topmark = topper[0].marks[0].mark
+
+      //   for(let i = 0; i < topper.length; i++){
+      //       let mark = topper[i].marks[0].mark
+      //       if (topmark < mark){
+      //         topmark = mark
+      //       }
+
+      //   }
+      //   console.log(topmark)
+      //   document.getElementById('result').value = topmark;
+      //   }
+
+      // Find the topper of a class given a subject
+      // function topperOfClass() {
+
+      // let a = document.getElementById("result").value;
+      // b = ['English', 'Maths', 'Physics', 'Chemistry', 'Computer'].indexOf(a)
+      // console.log(b)
+      // // console.log(a);
+      //   let topper = classObj.students;
+
+      // }
+
+      // Find the topper of a class given a subject // It is not completed yet
+      // function topperOfClass() {
+      //   let enterVal = document.getElementById("result").value;
+      //   let largemark = 0;
+      //   // console.log(enterVal);
+      
+      //   let mar = classObj.students;
+        
+      //   for(let i=0;i<mar.length;i++){
+      //     let sub = mar[i].marks
+      //     // console.log(sub);  
+      //     if(enterVal == sub[i].subject) {
+      //     console.log("Hey my name is gowthamap");
+      //       for(let j=0;j<sub.length;j++) {
+      //         if(largemark < sub[i].mark) {
+      //           largemark = sub[i].mark;
+      //           console.log(largemark);
+      //         }
+      //       }
+            
+      //   }
+      //   }
+       
+
+      // }
+
+
+      // Find the average mark for a given subject
+
+
+
+
+
+
 
 
 
